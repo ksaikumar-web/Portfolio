@@ -70,9 +70,18 @@ function Hero() {
         <div className="flex-1 text-center md:text-left animate-fade-in">
           <h1 className="text-4xl md:text-5xl font-bold text-blue-800 mb-2">Hi, I'm <span className="text-blue-600">Kumber Sai Kumar</span></h1>
           <h2 className="text-xl md:text-2xl font-semibold text-blue-500 mb-4">Full-Stack Software Engineer</h2>
-          <p className="text-gray-600 mb-6 max-w-xl mx-auto md:mx-0">Building robust, scalable banking and enterprise solutions with a passion for clean code and modern tech.</p>
+          <p className="text-gray-600 mb-6 max-w-xl mx-auto md:mx-0"> Software Engineer Level-2 with 3+ years of 
+expertise in Java Spring Boot development 
+and full-stack web applications. Specialized 
+in banking domain solutions with proven 
+success in batch processing optimization, 
+system integration, and performance 
+enhancement. Azure-certified professional 
+committed to delivering scalable, secure 
+applications that exceed business 
+requirements and regulatory standards</p>
           <div className="flex flex-col md:flex-row gap-3 justify-center md:justify-start mb-6">
-            <a href="/Resume/Resume.pdf" className="bg-blue-600 text-white px-6 py-2 rounded-lg font-semibold shadow hover:bg-blue-700 transition" download>Download Resume</a>
+            <a href="/KUMBER-SAI-KUMAR-JAVA-DEVELOPER-HEXAWARE-TECH.pdf" className="bg-blue-600 text-white px-6 py-2 rounded-lg font-semibold shadow hover:bg-blue-700 transition" download>Download Resume</a>
             <a href="#projects" className="border-2 border-blue-600 text-blue-600 px-6 py-2 rounded-lg font-semibold hover:bg-blue-50 transition">View Projects</a>
           </div>
           <div className="flex gap-4 justify-center md:justify-start">
@@ -97,32 +106,39 @@ function Skills() {
         <div className="grid md:grid-cols-3 gap-8">
           {/* Backend */}
           <div className="bg-blue-50 rounded-xl shadow p-6">
-            <h3 className="text-xl font-semibold text-blue-700 flex items-center mb-4"><i className="fas fa-server mr-2"></i>Backend Development</h3>
+            <h3 className="text-xl font-semibold text-blue-700 flex items-center mb-4"><i className="fas fa-server mr-2"></i>Backend</h3>
             <ul className="space-y-2">
-              <li className="flex items-center"><i className="fab fa-java text-yellow-700 mr-2"></i>Java & Java 8</li>
-              <li className="flex items-center"><i className="fas fa-leaf text-green-600 mr-2"></i>Spring Boot</li>
-              <li className="flex items-center"><i className="fas fa-database text-amber-700 mr-2"></i>Hibernate</li>
-              <li className="flex items-center"><i className="fas fa-cube text-pink-600 mr-2"></i>NestJS</li>
+              <li className="flex items-center"><i className="fab fa-java text-yellow-700 mr-2"></i>Java - Spring Boot - Hibernate</li>
+              <li className="flex items-center"><i className="fas fa-cube text-pink-600 mr-2"></i>NestJS - RESTful APIs</li>
+            </ul>
+            <h3 className="text-lg font-semibold text-blue-700 flex items-center mt-6 mb-2"><i className="fas fa-sitemap mr-2"></i>Architecture</h3>
+            <ul className="space-y-2">
+              <li className="flex items-center"><i className="fas fa-project-diagram text-blue-500 mr-2"></i>Microservices - API Design - System Integration</li>
             </ul>
           </div>
           {/* Frontend */}
           <div className="bg-blue-50 rounded-xl shadow p-6">
-            <h3 className="text-xl font-semibold text-blue-700 flex items-center mb-4"><i className="fas fa-desktop mr-2"></i>Frontend Development</h3>
+            <h3 className="text-xl font-semibold text-blue-700 flex items-center mb-4"><i className="fas fa-desktop mr-2"></i>Frontend</h3>
             <ul className="space-y-2">
-              <li className="flex items-center"><i className="fab fa-react text-cyan-400 mr-2"></i>ReactJS</li>
-              <li className="flex items-center"><i className="fab fa-js text-yellow-400 mr-2"></i>JavaScript</li>
-              <li className="flex items-center"><i className="fab fa-js text-blue-500 mr-2"></i>TypeScript</li>
-              <li className="flex items-center"><i className="fas fa-layer-group text-blue-700 mr-2"></i>Material UI</li>
+              <li className="flex items-center"><i className="fab fa-react text-cyan-400 mr-2"></i>ReactJS - Redux - TypeScript</li>
+              <li className="flex items-center"><i className="fas fa-layer-group text-blue-700 mr-2"></i>Material UI - Bootstrap</li>
             </ul>
           </div>
-          {/* Database & Cloud */}
+          {/* Database, Cloud, Domain */}
           <div className="bg-blue-50 rounded-xl shadow p-6">
-            <h3 className="text-xl font-semibold text-blue-700 flex items-center mb-4"><i className="fas fa-cloud mr-2"></i>Database & Cloud</h3>
+            <h3 className="text-xl font-semibold text-blue-700 flex items-center mb-4"><i className="fas fa-database mr-2"></i>Database</h3>
             <ul className="space-y-2">
-              <li className="flex items-center"><i className="fas fa-database text-blue-800 mr-2"></i>MySQL</li>
-              <li className="flex items-center"><i className="fas fa-database text-green-600 mr-2"></i>MongoDB</li>
-              <li className="flex items-center"><i className="fab fa-microsoft text-blue-500 mr-2"></i>Azure Platform</li>
-              <li className="flex items-center"><i className="fab fa-docker text-blue-400 mr-2"></i>Docker & CI/CD</li>
+              <li className="flex items-center"><i className="fas fa-database text-blue-800 mr-2"></i>MySQL - MongoDB</li>
+              <li className="flex items-center"><i className="fas fa-search text-green-600 mr-2"></i>Query Optimization - Data Modeling</li>
+            </ul>
+            <h3 className="text-lg font-semibold text-blue-700 flex items-center mt-6 mb-2"><i className="fas fa-cloud mr-2"></i>Cloud & DevOps</h3>
+            <ul className="space-y-2">
+              <li className="flex items-center"><i className="fab fa-microsoft text-blue-500 mr-2"></i>Azure (AZ-900)</li>
+              <li className="flex items-center"><i className="fab fa-docker text-blue-400 mr-2"></i>Docker - CI/CD - DevOps</li>
+            </ul>
+            <h3 className="text-lg font-semibold text-blue-700 flex items-center mt-6 mb-2"><i className="fas fa-university mr-2"></i>Domain</h3>
+            <ul className="space-y-2">
+              <li className="flex items-center"><i className="fas fa-university text-blue-700 mr-2"></i>Banking Systems - Trade Processing - Enterprise Platforms</li>
             </ul>
           </div>
         </div>
@@ -306,62 +322,18 @@ function Contact() {
     <section id="contact" className="bg-white py-16">
       <div className="container mx-auto px-4">
         <div className="text-center mb-10">
-          <h2 className="text-3xl font-bold text-blue-800 mb-2">Get In Touch</h2>
-          <p className="text-gray-500">Let's discuss banking technology opportunities and enterprise development projects</p>
+          <h2 className="text-3xl font-bold text-blue-800 mb-2">Contact</h2>
+          <p className="text-gray-500">Feel free to reach out for collaborations or just a friendly hello 👋</p>
         </div>
-        <div className="flex flex-col md:flex-row gap-10 md:gap-20 items-start">
-          {/* Contact Info */}
-          <div className="flex-1 space-y-6">
-            <div className="flex items-center gap-4">
-              <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center text-white text-xl"><i className="fas fa-envelope"></i></div>
-              <div>
-                <h4 className="font-semibold text-blue-700 mb-0">Email</h4>
-                <p className="text-gray-600 mb-0">ksai6342@gmail.com</p>
-              </div>
-            </div>
-            <div className="flex items-center gap-4">
-              <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center text-white text-xl"><i className="fab fa-linkedin"></i></div>
-              <div>
-                <h4 className="font-semibold text-blue-700 mb-0">LinkedIn</h4>
-                <p className="text-gray-600 mb-0">linkedin.com/in/KumberSaiKumar</p>
-              </div>
-            </div>
-            <div className="flex items-center gap-4">
-              <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center text-white text-xl"><i className="fab fa-github"></i></div>
-              <div>
-                <h4 className="font-semibold text-blue-700 mb-0">GitHub</h4>
-                <p className="text-gray-600 mb-0">github.com/KumberSaiKumar</p>
-              </div>
-            </div>
-            <div className="flex items-center gap-4">
-              <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center text-white text-xl"><i className="fas fa-map-marker-alt"></i></div>
-              <div>
-                <h4 className="font-semibold text-blue-700 mb-0">Location</h4>
-                <p className="text-gray-600 mb-0">Hyderabad, India</p>
-              </div>
-            </div>
-            <div className="flex gap-4 mt-4">
-              <a href="mailto:ksai6342@gmail.com" className="text-blue-600 hover:text-blue-800 text-2xl"><i className="fas fa-envelope"></i></a>
-              <a href="https://linkedin.com/in/KumberSaiKumar" className="text-blue-600 hover:text-blue-800 text-2xl"><i className="fab fa-linkedin"></i></a>
-              <a href="https://github.com/KumberSaiKumar" className="text-blue-600 hover:text-blue-800 text-2xl"><i className="fab fa-github"></i></a>
-            </div>
+        <div className="flex flex-col items-center justify-center gap-6">
+          <div className="flex gap-6 text-3xl">
+            <a href="mailto:ksai6342@gmail.com" className="text-blue-600 hover:text-blue-800"><i className="fas fa-envelope"></i></a>
+            <a href="https://linkedin.com/in/KumberSaiKumar" className="text-blue-600 hover:text-blue-800"><i className="fab fa-linkedin"></i></a>
+            <a href="https://github.com/KumberSaiKumar" className="text-blue-600 hover:text-blue-800"><i className="fab fa-github"></i></a>
           </div>
-          {/* Contact Form */}
-          <form className="flex-1 bg-blue-50 rounded-xl shadow p-8 space-y-6 w-full max-w-md" onSubmit={e => e.preventDefault()}>
-            <div>
-              <label htmlFor="name" className="block font-semibold text-blue-700 mb-1">Name</label>
-              <input type="text" id="name" name="name" required className="w-full px-4 py-2 rounded-lg border border-blue-200 focus:outline-none focus:ring-2 focus:ring-blue-400" />
-            </div>
-            <div>
-              <label htmlFor="email" className="block font-semibold text-blue-700 mb-1">Email</label>
-              <input type="email" id="email" name="email" required className="w-full px-4 py-2 rounded-lg border border-blue-200 focus:outline-none focus:ring-2 focus:ring-blue-400" />
-            </div>
-            <div>
-              <label htmlFor="message" className="block font-semibold text-blue-700 mb-1">Message</label>
-              <textarea id="message" name="message" rows={4} required className="w-full px-4 py-2 rounded-lg border border-blue-200 focus:outline-none focus:ring-2 focus:ring-blue-400"></textarea>
-            </div>
-            <button type="submit" className="w-full bg-blue-600 text-white font-semibold py-2 rounded-lg hover:bg-blue-700 transition">Send Message</button>
-          </form>
+          <div className="text-center text-blue-700 font-semibold">
+            ksai6342@gmail.com
+          </div>
         </div>
       </div>
     </section>
