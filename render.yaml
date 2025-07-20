@@ -2,7 +2,7 @@ services:
   - type: web
     name: portfolio
     env: static
-    buildCommand: cd project && npm run build
+    buildCommand: cd project && npm install && npm run build
     staticPublishPath: ./project/dist
     routes:
       - type: rewrite
