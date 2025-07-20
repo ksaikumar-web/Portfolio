@@ -8,13 +8,17 @@ This project is configured for easy deployment on Render. Follow these steps:
 
 ### Option 1: Using render.yaml (Recommended)
 
-1. **Connect your GitHub repository to Render:**
+1. **Upload your project to GitHub:**
+   - Make sure both the `render.yaml` file (in parent directory) and the `project` folder are in your repository
+   - The structure should be: `repository-root/render.yaml` and `repository-root/project/`
+
+2. **Connect your GitHub repository to Render:**
    - Go to [render.com](https://render.com)
    - Sign up/Login with your GitHub account
    - Click "New +" and select "Blueprint"
    - Connect your GitHub repository
 
-2. **Automatic Deployment:**
+3. **Automatic Deployment:**
    - Render will automatically detect the `render.yaml` file
    - The service will be configured as a static site
    - Your site will be deployed automatically
